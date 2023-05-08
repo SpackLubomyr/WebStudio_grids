@@ -1,0 +1,28 @@
+.product{
+    padding-top: 34px;
+}
+.product__list{
+    flex-wrap: wrap;
+    display: flex;
+}
+.product__item{
+    margin: auto;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 32px;
+}
+.product__title{
+    padding-left: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.product__text{
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}

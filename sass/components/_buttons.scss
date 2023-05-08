@@ -1,0 +1,27 @@
+.buttons{
+    padding-top: 94px;
+}
+.buttons__button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    border: 0;
+    color: #212121;
+}
+.buttons__button:hover{
+    color:#FFFFFF;
+    background: #2196F3;
+}
+.buttons__list{
+    display: flex;
+}
+.buttons__item{
+    align-items: center;
+    margin-right: 8px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.buttons__item:first-child{
+   margin-left: 350px;
+}
